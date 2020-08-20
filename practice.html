@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<head>
+<!-- to make responsive webpage -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>University Of Oxford</title>
+
+
+<link rel="stylesheet" type="text/css" href="styling.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
+</head>
+
+<body  style="width:1350px;">
+
+
+<a id="t"></a>
+
+<ul id="aa">
+
+<li><img src="logo1.png" width="169" height="334%" id="i1" /></li>
+
+<!-- Main menu Strip started-->
+<li><a>ADMISSIONS</a>
+ <ul>
+     <li><a  href="#a">Undergraduate</a></li>
+     <li><a href="#b">Graduate</a></li>
+	 <li><a href="#c">Education</a></li>
+ </ul>
+</li>
+
+<li>RESEARCH
+ <ul>
+     <li><a href="#d">Research Strategy</a></li>
+     <li><a href="#e">Division</a></li>
+     <li><a href="#f">Research Impact</a></li>
+	
+ </ul>
+</li>
+
+<li>NEWS & EVENT
+ <ul>
+     <li><a href="#g">Events</a></li>
+     <li><a href="#h">Science Blog</a></li>
+     <li><a href="#i">Art Blog</a></li>
+ </ul>
+</li>
+
+<li>ABOUT
+  <ul>
+     <li><a href="#j">Organisation</a></li>
+     <li><a href="#k">Facts & Figures</a></li>
+     <li><a href="#l">Oxford People</a></li> 
+  </ul>
+</li>
+</ul>
+
+<!-- Main menu Strip ended-->
+
+<!--navigation bar and search bar-->
+
+<div class="nav">
+  <a href="#">Colleges</a>
+  <a href="#">Divisions & Departments</a>
+ 
+    <div class="search">
+      <input type="text" class="searchterm" name="" placeholder="Enter here" >
+	  <button type="submit" class="searchbtn"><i class="fas fa-search"></i></button>
+	  <p>&nbsp;</p>
+    </div>	
+	
+ 
+     <div class="links" >
+
+            <a href="#">Staff</a>
+             <a href="#">Oxford Students</a>
+              <a href="#">Alumni</a>
+             <a href="#">Visitors</a>
+            <a href="#">Local Community</a>  
+
+   </div>
+</div>
+<!--
+<header><img src="images/b2.jpg" height="100" width="400" align="left"><img src="images/b4.jpg" height="100" width="500"><img src="images/b3.jpg" height="100" width="400" align="right"></header> -->
+<div class="ha">
+<p>“Do not confine your children to your own learning, for they were born in another time.”
+– Chinese proverb</p>
+</div>
+
+<!-- Image Slider-->
+
+  <div class="slider">
+
+    <div id="imge">
+      <img src="5.jpg">
+    </div>
+
+  </div>
+
+  <script type="text/javascript"> 
+  
+    var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '5.jpg', '7.jpg'];
+
+    var x = 0;
+
+    var imgs = document.getElementById('imge');
+
+    setInterval(slider, 2000);
+
+
+function slider()
+ {
+
+       if (x < images.length) 
+	   {
+         x = x + 1;
+       } 
+	   else 
+	   {
+        x = 1;
+       }
+
+    imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+ }
+  
+   </script>
+
+
+<table border="2">
+<th height="20" colspan="7" class="table" bgcolor="#999999"><h1><b>Admissions</b></h1></th>
+
+<tr bgcolor="#003366">
+
+<td>
+<a id="a"><h2><u>Undergraduate</u></h2></a>
+<p>Do you love to question and have an appetite for knowledge? Do you consistently achieve top grades in your class? Are you looking for an exceptional education in an environment which values individuals for who they are? Oxford might be the place for you.</p>
+</td>
+
+<td>
+<a id="b"><h2><u>Graduate</u></h2></a>
+<p>The University of Oxford offers a unique experience to graduate students, including the opportunity to work with leading academics and with some of the very best libraries, laboratories, museums and collections worldwide. This website is designed for those seeking admission for graduate study in 2018-19.</p>
+</td>
+
+<td>
+<a id="c"><h2><u>Continuing Education</u></h2></a>
+<p>Oxford’s Department for Continuing Education runs over 1000 courses per year, offered on a part-time basis. Programmes include Oxford awards and degrees at undergraduate and postgraduate level, online short courses, weekly classes, day and weekend events, continuing professional development and summer schools.</p>
+</td>
+</tr>
+</table>
+
+<br />
+<br />
+<table border="2">
+<th height="20" colspan="7" class="table" bgcolor="#999999"><h1><b>Research</b></h1></th>
+<tr bgcolor="#003366">
+<td>
+<a id="d"><h2><u>Research Strategy</u></h2></a>
+<p>
+Our core strategies set out how we propose to build upon Oxford’s existing strengths and share the knowledge we create with the wider world. They are also informed, as relevant, by our new overarching priorities. Each strategy is expressed as a series of commitments.
+</p>
+</td>
+
+<td>
+<a id="e"><h2><u>Division</u></h2></a>
+<p>
+The University of Oxford has four academic divisions, within which are individual departments, faculties or other centres. Click on the headings below to reveal the different departments, faculties or centres that make up the four academic divisions, or scroll to the bottom for a video explanation of the remit of each division's research. 
+</p>
+</td>
+
+<td>
+<a id="f"><h2><u>Research Impact</u></h2></a>
+<p>
+Research carried out by Oxford’s staff, students and alumni has made an enormous impact on the world over the centuries. You can explore some of the more recent examples in the Oxford Impacts case studies and films. These range from impact on culture, business and policy to environment and health.
+</p>
+</td>
+</tr>
+</table>
+
+<br />
+<br />
+<table border="2">
+<th height="20" colspan="7" class="table" bgcolor="#999999"><h1><b>News & Events</b></h1></th>
+<tr bgcolor="#003366">
+
+<td>
+<a id="g"><h2><u>Events</u></h2></a>
+<p>
+Events listed here are open to everyone. Whether you want to listen to a lecture, learn a new skill, take in a concert or an exhibition, see a play staged by Oxford University students or attend one of our sporting events, there's always something going on.
+If you're thinking about applying for an undergraduate degree at Oxford, please also see the information on open days, events and visiting for potential undergraduates.
+
+</p>
+</td>
+
+<td>
+<a id="h"><h2><u>Science Blog</u></h2></a>
+<p>
+The global population is currently undergoing the greatest demographic shift in the history of humankind. A direct consequence of this “longevity miracle” – if left unchecked – will be an explosion in the incidence of chronic diseases afflicting older people.
+
+A new Global Call to Action for better care for people suffering from hip fractures and other fractures that result from increased fragility illustrates that for the first time, the leading organisations in the world have recognised the need for collaboration on an entirely new scale
+</p>
+</td>
+
+<td>
+<a id="i"><h2><u>Arts Blog</u></h2></a>
+<p>
+Professor Justin Jones of Oxford’s Faculty of Theology and Religion, who has been working on Islam in India for the last 15 years through a variety of different projects, is now working on Sharia (Islamic law), and how it is practised among Muslim communities in modern India. 
+
+India, by its constitution, is considered to be a secular state. However, the Indian government has always promised to protect religious freedoms by allowing minorities to live by their own religious laws in their personal and family lives. This means that Muslims in India are still subject to a version of Islamic law (known as Muslim personal law) in family matters – issues such as marriage and divorce, for instance.
+</p>
+</td>
+</tr>
+</table>
+
+
+<br />
+<br />
+<table border="2">
+<th height="20" colspan="7" class="table" bgcolor="#999999"><h1><b>About</b></h1></th>
+<tr bgcolor="#003366">
+
+<td width="526">
+<a id="j">
+<h2><u>Organisation</u></h2></a>
+<p>
+Oxford has a distinctive collegiate structure. Students and academics benefit from belonging both to the University, a large, internationally-renowned institution, and to a college or hall, a small, interdisciplinary academic community.There are 38 Oxford colleges, which are financially independent and self-governing, but relate to the central University in a kind of federal system. There are also six permanent private halls, which are similar to colleges except that they tend to be smaller, and were founded by particular Christian denominations.
+</p>
+</td>
+
+<td width="549">
+<a id="k">
+<h2><u>Facts & Figures</u></h2></a>
+<p>
+<b>Did you know?</b>
+<li>Oxford was ranked first in the world in the Times Higher Education (THE) World University Rankings for 2017 and 2018.</li>
+<li>There are nearly 24,000 students at Oxford, including 11,747 undergraduates and 11,687 postgraduates.</li>
+<li>Oxford is very competitive: nearly 20,000 people applied for around 3,200 undergraduate places for entry in 2017. That means that Oxford receives, on average, more than 6 applications for each available place.</li>
+</p>
+</td>
+
+<td width="267">
+<a id="l">
+<h2><u>Oxford People</u></h2></a>
+
+<li>20th and 21st Centuries</li>
+<li>Tony Abbott, former Prime Minister of Australia</li>
+<li>HM King Abdullah II of Jordan</li>
+<li>Sir Grantley Adams, former Premier of Barbados and Prime Minister of the West Indies</li>
+<li>J M G (Tom) Adams, former Prime Minister of Barbados</li>
+<li>Diran Adebayo, author</li>
+</td>
+</tr>
+</table>
+
+<a href="#t"><font size="+3" color="#FF8000">TOP</font></a>
+
+
+
+
+</body>
+</html>
+
+ 
